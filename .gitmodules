@@ -1,0 +1,7 @@
+[submodule "toolkit"]
+	path = toolkit
+	url = https://github.com/toolkitchen/toolkit
+	branch = chrome-app
+[submodule "projects"]
+	path = projects
+	url = https://github.com/toolkitchen/projects
