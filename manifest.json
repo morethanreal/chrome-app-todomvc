@@ -3,19 +3,20 @@
   "version": "0.1",
   "manifest_version": 2,
 
-/*
   "sandbox": {
     "pages": [
       "projects/todomvc/todomvc-toolkit/index.html"
     ]
   },
-*/
-
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
 
   "app": {
+    /*
+    "background": {
+      "scripts": ["background.js"]
+    }
+    */
     "launch": {
-      "local_path": "projects/todomvc/todomvc-toolkit/index.html"
+      "local_path": "index.html"
     }
   }
 }
