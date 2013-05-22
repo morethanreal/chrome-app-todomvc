@@ -5,18 +5,13 @@
 
   "sandbox": {
     "pages": [
-      "projects/todomvc/todomvc-toolkit/index.html"
+      "projects/todomvc/todomvc-toolkit/chrome-app.html"
     ]
   },
 
   "app": {
-    /*
     "background": {
       "scripts": ["background.js"]
-    }
-    */
-    "launch": {
-      "local_path": "index.html"
     }
   }
 }
